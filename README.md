@@ -31,11 +31,7 @@ This model assumes price should increase linearly as more slots are occupied.
 
 ### 🔹 Model 2: Demand-Based Pricing
 Takes into account multiple demand factors:
-Demand = α × (Occupancy / Capacity)
-+ β × QueueLength
-− γ × Traffic
-+ δ × IsSpecialDay
-+ ε × VehicleTypeWeight
+Demand = α × (Occupancy / Capacity)+ β × QueueLength− γ × Traffic+ δ × IsSpecialDay+ ε × VehicleTypeWeight
 
 Price(t) = BasePrice × (1 + λ × NormalizedDemand)
 
@@ -78,6 +74,8 @@ git clone https://github.com/mandavi-singh/smart-parking-pricing.git
 cd smart-parking-pricing
 pip install -r requirements.txt
 streamlit run app.py
+```
+
 
 ## 👩‍💻 Author
 Mandavi Singh
