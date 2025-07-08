@@ -55,8 +55,8 @@ Adjusts price based on nearby lots within 1km using Haversine distance:
 ---
 ## 📂 Project Structure
 smart-parking-pricing/
-
 │
+
 ├── app.py                             # Main Streamlit app
 
 ├── models.py                          # Contains price computation functions
